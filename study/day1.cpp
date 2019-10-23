@@ -9,6 +9,6 @@ using namespace std;
 int main()
 {   
     int a = 1,b = 2;
-    cout << "你长得真好看\n今天是一个好日子" ;
+    cout << "Hello" ;
     return 0;
 }
