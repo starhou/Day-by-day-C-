@@ -38,7 +38,11 @@ int main()
         
     }
 
+<<<<<<< HEAD
     cout <<"The highest score is " <<max<<endl
+=======
+    cout <<"The highest score is" <<max<<endl
+>>>>>>> e2831b39f9816fdb4aa371ff0cb8545f2863397c
          <<"The scores and their\n"
          <<"differences from the highest are:\n";
     
