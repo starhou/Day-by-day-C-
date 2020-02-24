@@ -10,7 +10,13 @@
 * 对数组来说，计算机会记住a[0]的地址和数组长度
 * 函数调用数组my_function(a[i]), 如果i是0，则等效与myfunction(a[0]),
 * 会先对索引求值。
-* 
+*
+* 数组由三部分组成：第一个索引变量的地址，数组基类型（每个索引变量占用的内存量）
+* 以及数组长度（索引变量的数目）
+* 数组形参，不同于传引用，它需要额外变量传递数组长度
+*
+* const 修饰符让编译器知道该变量实参不能被改变，一般用在"数组形参"和以类的形式传递的"传引用参数"
+* const 修饰符要么不用，要么都用。
  #include <fstream>
  using namespace std;
  ifstream in_stream;
@@ -21,7 +27,7 @@
 * Author  StarHou
 * E-mail  1029588176@qq.com
 */
-# include <iostream>
+#include <iostream>
 
 const int NUMBER_OF_EMPLOYEES = 3;
 
