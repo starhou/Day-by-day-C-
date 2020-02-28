@@ -1,0 +1,546 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"size"
+			],
+			[
+				"IN",
+				"Include"
+			],
+			[
+				"o",
+				"out2"
+			],
+			[
+				"i",
+				"int"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"sta",
+				"static_cast"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"pr",
+				"pritf_asterisks"
+			],
+			[
+				"a",
+				"asterisk_count"
+			],
+			[
+				"p",
+				"plant"
+			],
+			[
+				"c",
+				"cout"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"end",
+				"endl"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"pl",
+				"plant_number"
+			],
+			[
+				"P",
+				"production"
+			],
+			[
+				"SA",
+				"scale"
+			],
+			[
+				"pro",
+				"production"
+			],
+			[
+				"n",
+				"namespace"
+			],
+			[
+				"ma",
+				"main\tmain()"
+			],
+			[
+				"la",
+				"last_plant_number"
+			],
+			[
+				"nu",
+				"number"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"e",
+				"endl"
+			],
+			[
+				"num",
+				"number-1"
+			],
+			[
+				"vo",
+				"vacation"
+			],
+			[
+				"ios",
+				"iostream\tstandard header"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "#include \"basemath.h\"\n#include \"basemath.c\"\n\n\nvoid main()\n{\n    double ecg[] = {1.5,2.8,3.3,7.2,-5};\n    int length = 5;\n    printf(\"length is %d\\n\", length);\n    struct MAX_MIN out, out2;\n    out =  max(ecg, length);\n    out2 =  min(ecg, length);\n    printf(\"%4.2f %d\\n\", out.a, out.b);\n    printf(\"%4.2f %d\\n\", out2.a, out2.b);\n}",
+			"file": "wcd/main.c",
+			"file_size": 345,
+			"file_write_time": 132272679005927800,
+			"settings":
+			{
+				"buffer_size": 331,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wcd/basemath.h",
+			"settings":
+			{
+				"buffer_size": 414,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "#include \"basemath.h\"\n\nconst int LENGTH_OF_ECG = 2000;\n\n\nstruct MAX_MIN max(const double X[], const int size)\n\n{\n    double max = 0;\n    struct MAX_MIN out;\n    for (int i = 0; i < size; i++)\n    {\n        /* code */\n        if (x[i]>max) \n            {\n            max = x[i];\n            out.b = i;\n            }\n    }\n    out.a = max;\n    return out;    \n}\n\nstruct MAX_MIN min(const double X[], const int size)\n{\n    double max = 0;\n    struct MAX_MIN out;\n    for (int i = 0; i < size; i++)\n    {\n        /* code */\n        if (x[i]<max) \n            {\n            max = x[i];\n            out.b = i;\n            }\n    }\n    out.a = max;\n    return out;    \n}",
+			"file": "wcd/basemath.c",
+			"file_size": 700,
+			"file_write_time": 132272677537169532,
+			"settings":
+			{
+				"buffer_size": 662,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mkp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"m",
+				"MarkdownLivePreview: Open Settings"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable plug-ins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Git: Diff All Files"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"i",
+				"Package Control: Install Package→安装插件"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 155.0,
+		"history":
+		[
+			"ls",
+			"!pwd",
+			"pwd",
+			"day14.exe"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Administrator/Desktop/workspace/c++",
+		"/C/Users/Administrator/Desktop/workspace/c++/Day-by-day-C--master",
+		"/C/Users/Administrator/Desktop/workspace/c++/Day-by-day-C--master/wcd"
+	],
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/workspace/c++/Day-by-day-C--master/code.c",
+		"/C/Users/Administrator/Desktop/workspace/c++/Day-by-day-C--master/study/day16.cpp",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/DocBlockr/README.md",
+		"/C/Users/Administrator/Desktop/workspace/CPR/workRecord.md",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/OmniMarkupPreviewer/OmniMarkupPreviewer.sublime-settings",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/User/OmniMarkupPreviewer.sublime-settings",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/OmniMarkupPreviewer/Default (Windows).sublime-keymap",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/User/Package Control.sublime-settings",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/User/MarkdownPreview.sublime-settings",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Administrator/Desktop/workspace/c++/Day-by-day-C--master/study/day15.cpp",
+		"/C/Users/Administrator/Desktop/workspace/c++/Day-by-day-C--master/study/day14.cpp",
+		"/C/Users/Administrator/Desktop/workspace/LMSfilter.py",
+		"/C/Users/Administrator/Desktop/workspace/CPR/python/presolve.py",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/SublimeTmpl/templates/cpp.tmpl",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/User/SublimeTmpl.sublime-settings",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/SublimeTmpl/SublimeTmpl.sublime-settings",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/SublimeTmpl/sublime-tmpl.py",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/User/SublimeTmpl/Main.sublime-menu",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/SublimeTmpl/Default (Windows).sublime-keymap",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/SublimeTmpl/templates/ruby.tmpl",
+		"/C/Users/Administrator/Desktop/workspace/c++/Day-by-day-C--master/study/readme.md",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/SublimeTmpl/README.md",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/SublimeTmpl/Main.sublime-menu",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/SublimeTmpl/templates/python.tmpl",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/SublimeTmpl/templates/cpp.tmpl.py",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/SublimeTmpl/templates/css.tmpl",
+		"/C/Users/Administrator/Downloads/regressgan.py",
+		"/C/Users/Administrator/Desktop/workspace/expertgan.py",
+		"/C/Users/Administrator/Desktop/workspace/胸外按压过程中伪迹抑制与心电节律辨识算法研究.pdf",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/Git/Git.sublime-settings",
+		"/C/Users/Administrator/Desktop/workspace/c++/Day-by-day-C--master/study/day13.cpp",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/User/Git.sublime-settings",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Administrator/Desktop/workspace/c++/test.cpp",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/User/encoding_cache.json",
+		"/D/Sublime/Sublime_Text_v3.2.2_Build_3211_x32_Stable_Chs/Data/Packages/User/c++.sublime-build"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"enable_mathjax",
+			"round"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wcd/main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wcd/basemath.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								215
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wcd/basemath.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 132.0
+	},
+	"output.markdown":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "s.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 837.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1600.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

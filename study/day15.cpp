@@ -4,10 +4,17 @@
 * 产量图
 * 
 * 知识点
+* static 静态关键字
 * 强制类型转换 
 * static_cast 比如非const 转const, void*转指针，static_cast能用于多态向上转化，如果向下转能成功但是不安全。
-* 
-* 
+* const_cast 将const变量转化为非const
+* dynamic_cast 用于动态类型转换，只能用于含有虚函数的类，用于类层次间的向上和向下转换。只能转指针或引用。如果是
+* 非法的指针返回NULL，对于引用抛异常。
+* 向上转换： 指的是子类向基类的转换
+* 向下转换： 指的是基类向子类的转换
+* 判断变量类型和要转换的类型是否相同来判断是否进行向下转换
+* reinterpret_cast
+* 几乎什么都可以转
 *
 * Data    2020.2.24   
 * Author  StarHou
@@ -29,7 +36,7 @@ void graph(const int asterisk_count[], int last_plant_number);
 // Auxillary function 
 void get_total(int& sum);
 
-double round(double number);
+static int Mround(double number);
 
 void pritf_asterisks(int n);
 
@@ -94,7 +101,7 @@ void scale(int a[], int size)
 	}
 }
 
-double round(double number)
+static int Mround(double number)
 
 {
 	using namespace std;
@@ -110,7 +117,7 @@ void graph(const int asterisk_count[], int last_plant_number)
 	{
 		cout <<"plant #" << plant_number << " ";
 		cout << asterisk_count[plant_number-1]<<endl;
-		cout << endl
+		cout << endl;
 		pritf_asterisks(asterisk_count[plant_number-1]);
 		cout << endl;
 	}
